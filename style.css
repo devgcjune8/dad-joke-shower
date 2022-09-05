@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&family=Peralta&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Aldrich',system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: azure;
+    margin: 0;   
+    background-color: aquamarine;
+    justify-content: center;
+    overflow-x: hidden;
+    text-align: center;
+}
+h1 {
+    font-size: 2.5vw;
+    letter-spacing: 1px;
+    margin-bottom: 43px;
+}
+.dad-joke-wrapper {
+    background-color:rgb(98, 216, 210);
+    box-shadow: 0 4px 10px rgb(92, 144, 211);
+    padding: 5vw;
+    width: 75vw;
+    border-radius: 1vw 3vw 1vw;
+
+}
+#dont-push-dad-joke-btn-anymore-please-im-begging {
+    margin-top: 43px;
+    font-family: inherit;
+    padding: 8px 9px;
+    background-color: rgb(181, 225, 231);
+    border: none;
+    cursor: pointer;
+    border-radius: 0.5vw 0.7vw 0.5vw;
+    font-size: 2.3vw;
+    
+}
+#dont-push-dad-joke-btn-anymore-please-im-begging:active {
+    transform: scale(0.99);
+    color: rgb(17, 39, 73);
+    background-color: aquamarine;
+    transition: all 0.1s ease-in;
+
+}
+
+#id-of-dad-joke {
+    font-family: 'Peralta', cursive;
+    letter-spacing: 1.1px;
+    font-size: 3.5vw;
+}
